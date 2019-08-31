@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    include: shiro-white-list
+logging:
+  level:
+    org:
+      apache:
+        shiro: debug
+shiro:
+  loginUrl: /login.html

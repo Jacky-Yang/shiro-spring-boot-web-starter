@@ -1,0 +1,7 @@
+
+#shiro 白名单
+system:
+  shiro:
+    white-list:
+      - /login.html
+      - /login
